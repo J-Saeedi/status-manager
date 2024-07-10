@@ -1,4 +1,5 @@
 # status-manager python library
+[![Upload Python Package](https://github.com/J-Saeedi/status-manager/actions/workflows/python-publish.yml/badge.svg?branch=main)](https://github.com/J-Saeedi/status-manager/actions/workflows/python-publish.yml)
 ## simple and useful status manager for bulk computations
 Assume that you have multiple folders which each one have a complete and isolated computation task.
 When you need to run them in sequence, may be it waste your time to count the current stage of each one. With this library you can easily handle the progress of each computation inside their own folders.    
