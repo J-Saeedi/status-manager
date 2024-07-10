@@ -42,16 +42,3 @@ class CheckStatus:
                 raise Exception("Error: There is a problem in "+str(dir_path))
             self.init_status(dir_path)
             return self.check(dir_path, first_time=False)
-
-
-# if __name__ == "__main__":
-#     s = CheckStatus()
-#     # for i in range(1, 11):
-#     #     data = s.check(str(i))
-#     #     if data == Status.unchecked.value:
-#     #         s.write_status(str(i), Status.started)
-#     #     elif data == Status.finished:
-#     #         pass
-#     #     print(f"folder {i} has {data}")
-#     print(s.check('1/'))
-#     print(s.check('1/') == StatusType.finished)
