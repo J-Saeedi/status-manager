@@ -23,7 +23,7 @@ s = CheckStatus() # init the status manager
 for i in range(1, 5):
         task = f"task-{i}"
         status = s.check(task) # read status of this task
-        if status != Statustype.finished:
+        if status != StatusType.finished:
             os.system(f"{task}/run_calculations") # run calculations
             status.write_status(task, StatusType.finished) # save as finished
 ```
